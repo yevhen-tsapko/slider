@@ -1,0 +1,9 @@
+.slider-window {width: 400px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: orange;
+    border: 2px solid red;
+.slider__item {
+}
+.slider__img {
+}
