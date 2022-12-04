@@ -1,9 +1,18 @@
-.slider-window {width: 400px;
+.slider {
+    position: relative;
+    width: 400px;
     height: 500px;
     margin: 100px auto;
     background-color: orange;
-    border: 2px solid red;
-.slider__item {
-}
+    border: 2px solid red;}
+
 .slider__img {
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 500px;
+    opacity: 1;
+}
+.slider .opacity0 {
+    opacity: 0;
 }
